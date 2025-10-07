@@ -1,0 +1,2 @@
+cl /EHsc /I "C:\Program Files (x86)\Microsoft SDKs\MPI\Include" main.cpp /link /LIBPATH:"C:\Program Files (x86)\Microsoft SDKs\MPI\Lib\x64" msmpi.lib
+mpiexec -n 4 main.exe
