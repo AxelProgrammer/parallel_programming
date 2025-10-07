@@ -2,4 +2,6 @@ $env:PATH="C:\msys64\mingw64\bin;" + $env:PATH
 g++ --version
 
 g++ -std=c++17 -pthread main.cpp -o main
+
+g++ -std=c++17 -fopenmp main.cpp -o main
 .\main.exe
